@@ -1,0 +1,494 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DB6AB0CF-A988-0820-EF54-9D2129AD1189" name="w_insured_liability_d">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:55:08 UTC</createdTime>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<engineerTo>
+<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="w_insured_liability_id" id="5C65FABD-B175-9111-28B4-B3DA71D8D588">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:55:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[customer_id, PK, unique identifier for w_customer_d]]></commentInRDBMS>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<engineerTo>
+<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BBF9FB95-C204-6455-EC64-D7F5DF589E7D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="w_insured_id" id="F5F8BF53-0E27-C256-4A2C-444D479BFBF3">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:55:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[customer code, in source this field is PARTY_CODE]]></commentInRDBMS>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<engineerTo>
+<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BBF9FB95-C204-6455-EC64-D7F5DF589E7D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="insured_src_id" id="ECF560FC-FF75-101A-984E-60E0A429CF20">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:55:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[customer name]]></commentInRDBMS>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<engineerTo>
+<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E3DC54DB-C3B7-CE98-A89F-D1B6606C5C37</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="location_insured" id="D913005E-5A47-38DB-2CB0-C13F195F6BA6">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:55:08 UTC</createdTime>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<engineerTo>
+<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>66D37A9E-3C1F-C4D6-F8FF-6B84B4FA0A8F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="risk_type" id="3C145F75-86A8-763E-5792-FB377AF94DBB">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:55:08 UTC</createdTime>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<engineerTo>
+<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<domain>C1F99D67-4D69-AAA6-298F-F11C9052BE9D</domain>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="program" id="669B9368-46E6-1774-C784-34B4ECF422A1">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:55:08 UTC</createdTime>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<engineerTo>
+<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="insured_objects" id="08282E45-704B-6375-015B-E11CD9127749">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:55:08 UTC</createdTime>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<engineerTo>
+<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>5000</dataTypeSize>
+<ownDataTypeParameters>5000,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="territorial_limit" id="F1675EA0-C22B-1C2A-109E-E87DD26B13A3">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:55:08 UTC</createdTime>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<engineerTo>
+<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="jurisdiction" id="ACAAF36B-3536-D5EA-E69F-B22450931937">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:55:08 UTC</createdTime>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<engineerTo>
+<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="insured_premises" id="6581C10B-B34F-65FF-9108-938063C2D173">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:55:08 UTC</createdTime>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<engineerTo>
+<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="insured_products" id="5B2948B4-1376-D78B-6BEF-171A62ACEF05">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:55:08 UTC</createdTime>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<engineerTo>
+<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="is_public_information" id="2ED80845-6F54-475C-521B-7FC2A120D8FA">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:55:08 UTC</createdTime>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<engineerTo>
+<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>3007D0DF-CB64-CD0D-7DBF-5CB095D0FA81</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="is_product_information" id="ADE937C6-047A-5007-4A17-4546DA88587E">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:59:26 UTC</createdTime>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<engineerTo>
+<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>3007D0DF-CB64-CD0D-7DBF-5CB095D0FA81</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="business_insured" id="11D1D0A3-F4BB-1740-843D-EA00002A2EA1">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:59:26 UTC</createdTime>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<engineerTo>
+<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="product_insured" id="9DBCBCC2-5712-5B3D-C8EB-E4B3FBE7B1EA">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:59:27 UTC</createdTime>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<engineerTo>
+<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="professional_business_practice" id="5DE96070-D530-5C4C-7F1E-3B4F0E01C2F4">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:59:27 UTC</createdTime>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<engineerTo>
+<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="contract_type" id="CAD1EA1B-176C-1D67-6681-3352FBB67249">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:59:27 UTC</createdTime>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<engineerTo>
+<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C1F99D67-4D69-AAA6-298F-F11C9052BE9D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="project_name" id="7FEC12AE-73BD-7C1F-4137-71A68D2E21EA">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:59:27 UTC</createdTime>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<engineerTo>
+<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>55FED129-DBC8-40F9-1078-CF7E78B710B2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="project_location" id="775A6076-A545-F754-5559-ECB0DF62D57F">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:59:27 UTC</createdTime>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<engineerTo>
+<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>66D37A9E-3C1F-C4D6-F8FF-6B84B4FA0A8F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="poi" id="2E54BF6B-502F-3B50-52D8-3961A1754ECA">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 04:01:03 UTC</createdTime>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<engineerTo>
+<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="number_of_professional_staff_employed" id="6577C297-25AD-6188-889D-A2656FA304DE">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 04:01:03 UTC</createdTime>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<engineerTo>
+<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="value_of_construction_works" id="BBC61084-C4A3-BE8C-B3B2-EDC0DC237833">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 04:01:03 UTC</createdTime>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<engineerTo>
+<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,18,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="value_of_consulting_contract" id="EDEFAD7E-C148-5238-E38F-AB36C2677A7B">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 04:02:26 UTC</createdTime>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<engineerTo>
+<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>18</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,18,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="location_of_risk_territorial_limit" id="6F591858-380A-A8EE-83CE-381D000611C1">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 04:02:41 UTC</createdTime>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<engineerTo>
+<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>66D37A9E-3C1F-C4D6-F8FF-6B84B4FA0A8F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rating_type" id="60A88B7C-20B1-B261-6695-A823EB3F0C89">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 04:02:41 UTC</createdTime>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<engineerTo>
+<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C1F99D67-4D69-AAA6-298F-F11C9052BE9D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rating_percentage" id="F1443A69-37D7-AF83-D72C-FB8E59A994D1">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 04:02:42 UTC</createdTime>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<engineerTo>
+<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<domain>3EB37B0F-4DF2-4429-AAE1-F3AB82C6716F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="w integration key" id="4E8933A6-46A2-4F47-97D0-EC3C86B6EFBC">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:55:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[system field, concat list natural key from source and user for data etl processing]]></commentInRDBMS>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<engineerTo>
+<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>16C37F49-CC32-399B-E92E-4F6D1C3C03C1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="w valid from" id="CB5F813D-D41E-9A7C-0ACA-CDA1F99EB52D">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:55:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[system field, used for data integration, marking date when record is valid]]></commentInRDBMS>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<engineerTo>
+<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>53D4C337-D175-9973-AB68-0E49187DD1D9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="w valid to" id="6574799E-C65D-4EA9-1F87-1D01C5DDAD8D">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:55:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[system field, used for data integration, marking date when record is valid]]></commentInRDBMS>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<engineerTo>
+<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>E2BA4DCD-BED3-972B-7C1A-0D71E79422CD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="w valid flag" id="3D660A9C-E4F6-9216-D62D-5793C03E86CB">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:55:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[system field, used for data integration, marking record is valid or not]]></commentInRDBMS>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<engineerTo>
+<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>3007D0DF-CB64-CD0D-7DBF-5CB095D0FA81</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="w created time" id="A24C362D-7B0B-98AD-966F-7D0003BB7086">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:55:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[system field, used for data integration, marking time when record is created]]></commentInRDBMS>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<engineerTo>
+<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>679B8CEF-991B-BB91-42CD-E9947F4C1E5E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="w updated time" id="9C34CDE0-AFF2-285A-A0DF-C34A8EB7B652">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:55:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[system field, used for data integration, marking time when record is updated]]></commentInRDBMS>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<engineerTo>
+<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>679B8CEF-991B-BB91-42CD-E9947F4C1E5E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="w job id" id="3B788C61-FB7C-7A7B-E784-72F4BF3B9078">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:55:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[system field, refers to batch job id for each of run]]></commentInRDBMS>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<engineerTo>
+<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BBF9FB95-C204-6455-EC64-D7F5DF589E7D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="w_insured_id1" id="E45C3182-05A5-3430-95B7-FCEB1E3D7E25">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 04:04:28 UTC</createdTime>
+<generatorID>C7D285B8-7EE8-63D1-487D-583D91F5AE6E</generatorID>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<engineerTo>
+<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
+</engineerTo>
+<referedAttribute>EDB6731E-6C3D-665C-8CCC-3226DD04987C</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BBF9FB95-C204-6455-EC64-D7F5DF589E7D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="21D78917-9055-ED08-B4F7-D43751BCB615" name="w_contact_d_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:55:08 UTC</createdTime>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<engineerTo>
+<item key="29A84CA2-4591-3951-AC60-24D6F441DF21" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5C65FABD-B175-9111-28B4-B3DA71D8D588</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,589 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="270A4F1B-9ED8-1159-D36A-E3F9834DB717" name="w_policy_d">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:50:38 UTC</createdTime>
+<generatorID>8C8064A5-31E7-D022-6B0D-6EB167EECA67</generatorID>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<additionalClassificationTypes>2</additionalClassificationTypes>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="w_policy_id" id="41BA96B0-A127-AE42-6CD9-E8AB76445AB2">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:50:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[customer_id, PK, unique identifier for w_customer_d]]></commentInRDBMS>
+<generatorID>551DF872-BB07-7706-6C43-A35AB1E0C347</generatorID>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BBF9FB95-C204-6455-EC64-D7F5DF589E7D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="master_policy_src_id" id="67FCAF29-1AE7-0BD8-6750-7BAF95BCD4C2">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:50:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[customer code, in source this field is PARTY_CODE]]></commentInRDBMS>
+<generatorID>66815E22-119E-2FAB-4DC8-3B4F6B3DD8C9</generatorID>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E3DC54DB-C3B7-CE98-A89F-D1B6606C5C37</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="policy_src_id" id="BF7CE89B-CE99-4754-A2D2-D23049C54433">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:50:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[customer name]]></commentInRDBMS>
+<generatorID>DE6ED6CF-A9CB-44F4-1456-D04E8F96D472</generatorID>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E3DC54DB-C3B7-CE98-A89F-D1B6606C5C37</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="master_policy_no" id="F760CA30-F6BC-0311-EC0C-34BF692CE679">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:50:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[customer date of birth]]></commentInRDBMS>
+<generatorID>0B7D861A-156B-2C6E-E48A-3E2DEB0EB6CE</generatorID>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E3DC54DB-C3B7-CE98-A89F-D1B6606C5C37</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="policy_no" id="C0BD81A6-A4F2-57CE-7377-686D78F91A43">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:50:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[customer date of death]]></commentInRDBMS>
+<generatorID>1BDF4C61-2C8D-1F2B-A6A8-58BD2FF96143</generatorID>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E3DC54DB-C3B7-CE98-A89F-D1B6606C5C37</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="product_name" id="32CE1831-AD49-CA66-EEB2-78316637A2B1">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:50:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[customer's gender, data sample (F, M, U)]]></commentInRDBMS>
+<generatorID>DD1014FA-1240-19E4-E34A-A6BF9098418B</generatorID>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>55FED129-DBC8-40F9-1078-CF7E78B710B2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="terminal_code" id="17FD9303-C239-3B0B-C4CD-53E14530D1EE">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:50:38 UTC</createdTime>
+<generatorID>1CF860F1-A5FA-68C1-C84B-2E3674730AF6</generatorID>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E3DC54DB-C3B7-CE98-A89F-D1B6606C5C37</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="effective_date" id="31910DB6-0463-0A9B-5B09-A788908C3C4B">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:50:38 UTC</createdTime>
+<generatorID>7D5F9406-E43D-9C35-2C6A-280A5FCF23D9</generatorID>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>45EC3B67-642F-9E31-84A5-02B06C9B5566</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="expriry_date" id="72FE8F66-9A2E-4072-A9D5-580282E8B43A">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:50:38 UTC</createdTime>
+<generatorID>1E15445B-0D19-D9B9-B31B-D79AD88A9BF3</generatorID>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>45EC3B67-642F-9E31-84A5-02B06C9B5566</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="last_policy_id" id="CA92DD2C-12EF-01C1-9EE5-8502272B351F">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:50:38 UTC</createdTime>
+<generatorID>13BA9847-4DCE-003B-FDCF-182BBE6EB812</generatorID>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E3DC54DB-C3B7-CE98-A89F-D1B6606C5C37</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="marital_status" id="1AAF5B51-A13E-CDAA-E0DA-93300223A593">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:50:38 UTC</createdTime>
+<generatorID>8B3BDC55-377A-2699-6402-D01160FD1C0B</generatorID>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="issue_date" id="DCB17D68-D271-7E2D-47A7-6DCFEEB2F899">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:50:38 UTC</createdTime>
+<generatorID>F2761F96-2ACD-F265-E718-129536B6BEE6</generatorID>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>45EC3B67-642F-9E31-84A5-02B06C9B5566</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="print_date" id="B72C3038-BF38-3E18-447D-7BF71D9E0EF0">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:50:38 UTC</createdTime>
+<generatorID>AF7F0ED3-DA89-798D-F2A0-C18799129D7A</generatorID>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>45EC3B67-642F-9E31-84A5-02B06C9B5566</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="is_renewal_policy" id="827D5CAF-DEBC-946E-F14E-43DBD4710320">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:50:38 UTC</createdTime>
+<generatorID>B5B4B40B-F6CD-1F74-B309-16B000AF1B81</generatorID>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>3007D0DF-CB64-CD0D-7DBF-5CB095D0FA81</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="is_renewable" id="C6217383-F927-7EA0-50E0-E7130645443F">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:50:38 UTC</createdTime>
+<generatorID>D611EED5-E201-64D2-AF39-727C8E5D1E39</generatorID>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>3007D0DF-CB64-CD0D-7DBF-5CB095D0FA81</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="plan_code" id="D1D1EC43-2726-377E-CC8F-1F0C0D2AA296">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:50:38 UTC</createdTime>
+<generatorID>662A7A70-EAA0-ECF5-F5E7-52506F755A44</generatorID>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E3DC54DB-C3B7-CE98-A89F-D1B6606C5C37</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sum_insured" id="F14F4635-6690-CA85-5651-17E79C901A97">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:50:38 UTC</createdTime>
+<generatorID>5D07F339-F457-866D-CE6B-86E6B0CE5E00</generatorID>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<domain>E7652355-C983-964A-DCCF-E8EEE016E853</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="premium_currency" id="A26504AC-99BE-7CBD-96DB-798375A2D87F">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:50:38 UTC</createdTime>
+<generatorID>AEF8D6B8-AB82-6F6D-517E-9E5FE2FE8F74</generatorID>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>BE98530A-7273-BD07-16AB-03592AFBC733</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="premium_local_exchage_rate" id="40F9CB14-49B1-D17A-FA99-10C98696331D">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:50:38 UTC</createdTime>
+<generatorID>AD4AB756-54BE-1E92-B29B-430C33A3A932</generatorID>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<domain>3EB37B0F-4DF2-4429-AAE1-F3AB82C6716F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="si_local_exchage_rate" id="373E4BFA-217A-EDB4-59FC-CBB7ECB3CDD7">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:50:38 UTC</createdTime>
+<generatorID>3EB5532C-3719-1599-C1C7-646A1DED996E</generatorID>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<domain>3EB37B0F-4DF2-4429-AAE1-F3AB82C6716F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="local_currency" id="157A271B-BD9B-194A-A9CF-2C4B6E9D71E5">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:50:38 UTC</createdTime>
+<generatorID>5F1A8258-63FC-8CAB-0C6A-D3ECC2F96646</generatorID>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>BE98530A-7273-BD07-16AB-03592AFBC733</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="premium_type" id="76243368-5C1E-5A20-9FAE-FC7D8CAF20AA">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:50:38 UTC</createdTime>
+<generatorID>988F6CD4-323D-F57C-2A79-67CF78B623D6</generatorID>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E3DC54DB-C3B7-CE98-A89F-D1B6606C5C37</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="reject_desc" id="703B701F-DD6D-E5B8-DE0A-47FC2DDF297D">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:50:38 UTC</createdTime>
+<generatorID>DBD8DD93-BFEC-7CA8-8DDB-CCA15AB9DF10</generatorID>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>55FED129-DBC8-40F9-1078-CF7E78B710B2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="is_package_product" id="07B5D368-6688-7CD8-A881-0ABAAEE64D8B">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:50:38 UTC</createdTime>
+<generatorID>E7E857C2-614D-3DB5-FC13-A6241C76BF35</generatorID>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>3007D0DF-CB64-CD0D-7DBF-5CB095D0FA81</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="application_date" id="F573D450-718D-476E-5489-33A027340BBA">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:50:38 UTC</createdTime>
+<generatorID>9C251E34-77E5-C972-7A00-27A7E1C92598</generatorID>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>45EC3B67-642F-9E31-84A5-02B06C9B5566</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="actural_total_prem" id="F6B80A02-D737-337C-6819-7DF9A4CCB7D0">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:50:38 UTC</createdTime>
+<generatorID>DA4B2200-1ACC-7890-F4E7-C7F729BD7465</generatorID>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<domain>E7652355-C983-964A-DCCF-E8EEE016E853</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="payable_premium" id="C40C1F90-1094-998A-3442-168DC025C696">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:50:38 UTC</createdTime>
+<generatorID>FA4AE2FB-9EFD-6988-20DA-726F481644E9</generatorID>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<domain>E7652355-C983-964A-DCCF-E8EEE016E853</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="actural_total_prem_1" id="0CCC0FAD-6AEB-D009-55F7-2A9AB76CAED3">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:50:38 UTC</createdTime>
+<generatorID>F2AEBE9F-86BC-900B-E1A1-3D7D7E82AE97</generatorID>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<domain>E7652355-C983-964A-DCCF-E8EEE016E853</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="uw_remark" id="2B706C0A-0C2B-B5E5-4F13-69282571F581">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:50:38 UTC</createdTime>
+<generatorID>4970AA2A-9CB8-49C9-69D1-4AF12AA3C2A8</generatorID>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="w_integration_key" id="9C6F949C-1B7A-AB0B-EB0F-4F0E6660BA6B">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:50:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[system field, concat list natural key from source and user for data etl processing]]></commentInRDBMS>
+<generatorID>1B9E9569-4DBB-2920-8886-268137901412</generatorID>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>16C37F49-CC32-399B-E92E-4F6D1C3C03C1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="w_valid_from" id="1A363B53-93B2-34C8-32D4-77D5F38C3AD1">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:50:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[system field, used for data integration, marking date when record is valid]]></commentInRDBMS>
+<generatorID>34BE60AD-0A00-D04A-FAB0-7FA158F339D8</generatorID>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>53D4C337-D175-9973-AB68-0E49187DD1D9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="w_valid_to" id="A5EA7982-1717-C4BE-AAC4-14D70EE39185">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:50:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[system field, used for data integration, marking date when record is valid]]></commentInRDBMS>
+<generatorID>F42F39DA-43DB-6BD7-2A7E-318A6A7AE2BE</generatorID>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>E2BA4DCD-BED3-972B-7C1A-0D71E79422CD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="w_valid_flag" id="95B1049D-FF45-906B-6DDC-C2A9CF5EE134">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:50:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[system field, used for data integration, marking record is valid or not]]></commentInRDBMS>
+<generatorID>0961BCA0-71DB-9871-B0F3-DF66CE345954</generatorID>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>3007D0DF-CB64-CD0D-7DBF-5CB095D0FA81</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="w_created_time" id="3ED9FF1B-5EAA-42DA-D0D4-50BF2E730297">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:50:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[system field, used for data integration, marking time when record is created]]></commentInRDBMS>
+<generatorID>47791C46-CE01-4FE8-5CD9-0FE48410E438</generatorID>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>679B8CEF-991B-BB91-42CD-E9947F4C1E5E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="w_updated_time" id="049BC143-E9EA-FC7B-455C-4D759404C2EE">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:50:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[system field, used for data integration, marking time when record is updated]]></commentInRDBMS>
+<generatorID>FC427968-711F-20B6-6DFF-107BE5CEE8F8</generatorID>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>679B8CEF-991B-BB91-42CD-E9947F4C1E5E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="w_job_id" id="E37E462D-0FF4-1B92-8F15-88608CFC802C">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:50:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[system field, refers to batch job id for each of run]]></commentInRDBMS>
+<generatorID>C6184983-24F5-1F86-EFC3-88D878AC8767</generatorID>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BBF9FB95-C204-6455-EC64-D7F5DF589E7D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="w_contact_id" id="DB52494E-23E8-0A5D-28AA-4C389364B062">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:50:38 UTC</createdTime>
+<generatorID>247645C6-A440-C4E1-DFFB-AFF67CB1236A</generatorID>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BBF9FB95-C204-6455-EC64-D7F5DF589E7D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="18DD5534-9563-1F68-F604-DE633D31A914" referredColumn="960EC6E7-8E78-651A-5973-26786FB611C7"/>
+</associations>
+</Column>
+<Column name="w_policy_type_id" id="F3CFC36B-CDC9-B00B-DB3F-4152B674CE54">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:50:38 UTC</createdTime>
+<generatorID>E62A3C85-2E9F-2DDB-57AD-69312013ED00</generatorID>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BBF9FB95-C204-6455-EC64-D7F5DF589E7D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8FAF3ED4-D045-DB3C-B3F4-0ACD126664A4" referredColumn="64A789A3-CA7B-6463-5D86-9D475A799ED0"/>
+</associations>
+</Column>
+<Column name="w_insured_id" id="3C880080-AF05-8168-112B-78DA9A98A9A0">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:50:38 UTC</createdTime>
+<generatorID>65B51447-A9FF-1519-71D4-534720CDC5B8</generatorID>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BBF9FB95-C204-6455-EC64-D7F5DF589E7D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="w_branch_id" id="F233458C-C906-78EE-D59C-14933B9561EE">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:50:38 UTC</createdTime>
+<generatorID>EA948B85-687E-2315-85FF-E13EBDFF81DA</generatorID>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BBF9FB95-C204-6455-EC64-D7F5DF589E7D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B29D79D3-AD6B-8172-F41E-FD61C88EE8BB" referredColumn="66C1E4C5-88A5-9EE0-D72F-C72058966641"/>
+</associations>
+</Column>
+<Column name="w_agent_id" id="B921C0CF-4742-2B15-A0E2-252490A17905">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:50:38 UTC</createdTime>
+<generatorID>1577511D-1A57-36C1-A493-6704B0D3552C</generatorID>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BBF9FB95-C204-6455-EC64-D7F5DF589E7D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8A1637A0-43EC-073B-3AA9-0D168637C030" referredColumn="66C2AA6E-5524-D304-E6EB-29465565F37C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F5331C8E-3F6F-4AF9-9FFB-65A30248C7F4" name="w_policy_d_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:50:38 UTC</createdTime>
+<generatorID>CAB0DEEC-6AA5-0F05-3C09-912A1E22E7A6</generatorID>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="41BA96B0-A127-AE42-6CD9-E8AB76445AB2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="876D7C26-8C8C-7B65-CB8B-6563EA28AD20" name="w_policy_d_w_policy_status_d_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:50:38 UTC</createdTime>
+<generatorID>2EC4A095-B955-2F50-7CA7-91D9FD10A4C0</generatorID>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB52494E-23E8-0A5D-28AA-4C389364B062"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7367270F-DE72-B0D5-7D18-355B321D7FCD" name="w_policy_d_w_policy_type_d_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:50:38 UTC</createdTime>
+<generatorID>EF123200-5E01-4B70-872C-9A143C289BB8</generatorID>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F3CFC36B-CDC9-B00B-DB3F-4152B674CE54"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BAEB09F4-D8D5-2DC4-4B32-2FAC30447A00" name="w_policy_d_w_new_biz_status_d_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:50:38 UTC</createdTime>
+<generatorID>BA93A1FE-251A-7575-AEC6-D7434655E66A</generatorID>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="70DC7161-AE8F-5CEC-9ACB-6162CAFB3DC1" name="w_policy_d_w_branch_d_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:50:38 UTC</createdTime>
+<generatorID>E84030A4-29FD-B7C4-1437-A661CC9A4453</generatorID>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F233458C-C906-78EE-D59C-14933B9561EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="76B0E4EA-2180-7C2E-9ECC-0DA0E382E7CB" name="w_policy_d_w_agent_d_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:50:38 UTC</createdTime>
+<generatorID>71DA675F-CBB2-0F3E-CBBE-6336A4D5A1B2</generatorID>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B921C0CF-4742-2B15-A0E2-252490A17905"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

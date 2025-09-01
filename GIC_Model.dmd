@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="GIC_Model" id="49F2B77F-BE8D-FD0D-B451-027684DE80C6" version="3.5">
+<createdBy>Admin</createdBy>
+<createdTime>2025-08-28 16:00:58 UTC</createdTime>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>49F2B77F-BE8D-FD0D-B451-027684DE80C6</designId>
+</OSDM_Design>

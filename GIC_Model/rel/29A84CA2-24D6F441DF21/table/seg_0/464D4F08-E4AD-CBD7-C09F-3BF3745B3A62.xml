@@ -1,0 +1,228 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="464D4F08-E4AD-CBD7-C09F-3BF3745B3A62" name="w_contact_d">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:50:38 UTC</createdTime>
+<generatorID>7E3DAFAC-88ED-BBB7-7A5D-D238F3CE2002</generatorID>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="w_contact_id" id="A1528C4F-9F95-B305-1CC3-F5400388CF53">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:50:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[customer_id, PK, unique identifier for w_customer_d]]></commentInRDBMS>
+<generatorID>40D490B2-CAC9-384A-6145-9A8779775B97</generatorID>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BBF9FB95-C204-6455-EC64-D7F5DF589E7D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="contact_src_id" id="A6E9228E-832E-6C37-8F00-0A601DE0584B">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:50:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[customer code, in source this field is PARTY_CODE]]></commentInRDBMS>
+<generatorID>3D34BFB0-278E-C4F7-3BC6-48E8A32E57C2</generatorID>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E3DC54DB-C3B7-CE98-A89F-D1B6606C5C37</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="business_tel" id="CFFBEA62-B4D5-01E8-1D90-2212E2CDE3E4">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:50:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[customer name]]></commentInRDBMS>
+<generatorID>23670EF9-49C6-EC98-93F4-259929A55702</generatorID>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<domain>E47DB608-9078-A42B-9DD3-DB0234920E64</domain>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="B894F2E2-CC9A-1245-47B2-DDBBC0C2D42B">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:50:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[customer date of birth]]></commentInRDBMS>
+<generatorID>8DD73CF7-B311-9FBF-D561-CA80EF1C99D1</generatorID>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E3DC54DB-C3B7-CE98-A89F-D1B6606C5C37</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fax" id="31B8F592-E129-98CB-D240-45270C201645">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:50:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[customer date of death]]></commentInRDBMS>
+<generatorID>1DF5C272-0BD8-F522-4D05-233E99BA03E3</generatorID>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E3DC54DB-C3B7-CE98-A89F-D1B6606C5C37</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hand_phone" id="A7372400-5161-26D7-FDD8-7E0E68252F9B">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:50:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[customer's gender, data sample (F, M, U)]]></commentInRDBMS>
+<generatorID>E1F5A75A-B419-4233-0231-A6C63B777E52</generatorID>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>E47DB608-9078-A42B-9DD3-DB0234920E64</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="home_tel" id="1E42D463-BEB0-2FFF-1942-799F218CE7A8">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:50:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[identification number (Citizen ID / National ID / Tax Code)]]></commentInRDBMS>
+<generatorID>084375DC-99A2-3528-3473-25441BC0C02A</generatorID>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>E47DB608-9078-A42B-9DD3-DB0234920E64</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="w_integration_key" id="6DB5CD99-3D8C-1DDF-DF4D-3EA7E240BD01">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:50:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[system field, concat list natural key from source and user for data etl processing]]></commentInRDBMS>
+<generatorID>3548D04F-E516-51C9-11ED-CDD6C3DB3D9D</generatorID>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>16C37F49-CC32-399B-E92E-4F6D1C3C03C1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="w_valid_from" id="67A81BE9-0690-8B5B-7E8F-0AC98DCDC673">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:50:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[system field, used for data integration, marking date when record is valid]]></commentInRDBMS>
+<generatorID>565B1467-CBF1-B365-8306-1F43D83004EE</generatorID>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>53D4C337-D175-9973-AB68-0E49187DD1D9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="w_valid_to" id="EF819780-C5B0-CB64-9552-AD21EEC59520">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:50:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[system field, used for data integration, marking date when record is valid]]></commentInRDBMS>
+<generatorID>A1B27E28-338D-0F93-0F5F-102763746087</generatorID>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>E2BA4DCD-BED3-972B-7C1A-0D71E79422CD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="w_valid_flag" id="FBA96E7D-8081-A9A0-0010-CE9809C39C50">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:50:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[system field, used for data integration, marking record is valid or not]]></commentInRDBMS>
+<generatorID>4F3087E7-9BF7-7834-DF56-5CFA373C4019</generatorID>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>3007D0DF-CB64-CD0D-7DBF-5CB095D0FA81</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="w_created_time" id="01003945-2A24-D5E4-D7F3-565EFF901F30">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:50:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[system field, used for data integration, marking time when record is created]]></commentInRDBMS>
+<generatorID>8FF0A290-2CBF-685D-EA32-00CDAFCB06E7</generatorID>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>679B8CEF-991B-BB91-42CD-E9947F4C1E5E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="w_updated_time" id="1BB7EFD7-1578-BF41-B69D-87B2F4079EC2">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:50:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[system field, used for data integration, marking time when record is updated]]></commentInRDBMS>
+<generatorID>C482D720-2FEF-7502-83E7-627172964CB1</generatorID>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>679B8CEF-991B-BB91-42CD-E9947F4C1E5E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="w_job_id" id="2C3CE3F4-39BE-843A-34DA-7F3C9C01A0F2">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:50:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[system field, refers to batch job id for each of run]]></commentInRDBMS>
+<generatorID>5AD7028C-D097-BA20-0E88-3D99FA795490</generatorID>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BBF9FB95-C204-6455-EC64-D7F5DF589E7D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="w_customer_id" id="190E1BDE-7F73-28B3-8F04-E1F097C2C8E2">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:50:38 UTC</createdTime>
+<generatorID>76A243EE-0101-EE7E-939F-358090EB6E02</generatorID>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>84B845DC-5F1C-B1BE-7164-3111CF77B44A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9B0CBB89-ED0A-F11E-CFD0-ACBAC8AE61F0" referredColumn="4EEC1024-9C39-43FC-8A9F-6AF6BD11E764"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="81330024-5855-E139-6514-2849FB26DAD5" name="w_contact_d_PK">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:50:38 UTC</createdTime>
+<generatorID>D3EBE1A8-38E3-9F60-A31F-13695E9AE03C</generatorID>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A1528C4F-9F95-B305-1CC3-F5400388CF53"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7DA1C715-7200-A259-815C-05F1BEE58B63" name="w_contact_d_w_customer_d_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:50:38 UTC</createdTime>
+<generatorID>CA9195A4-5AC9-105C-81E0-5F3E1347464D</generatorID>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="190E1BDE-7F73-28B3-8F04-E1F097C2C8E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

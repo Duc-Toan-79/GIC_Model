@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="09779C7B-D59A-0885-9B92-DC06A769288B" containerWithKeyObject="A59F3664-8D62-7F67-2587-79C95AFD812A" localFKIndex="214CD0D0-E2DF-7A89-AFFE-B1DD3B6BE110" name="w_endorsement_d_w_endorsement_type_d_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:50:38 UTC</createdTime>
+<generatorID>B84B6153-E9BD-FA00-3C11-E553144F9BCA</generatorID>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<referredTableLongName>w_endorsement_type_d</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>946F494B-D92F-EB25-885C-CEB7E48CB3D4</referredTableID>
+<keyObject>5D43DA8D-A6B8-E1CA-FFEA-AC69FE02DA8F</keyObject>
+<referredKeyID>5D43DA8D-A6B8-E1CA-FFEA-AC69FE02DA8F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>w_endo_type_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B7C24644-595F-305D-58B6-D23E2C353002" containerWithKeyObject="A59F3664-8D62-7F67-2587-79C95AFD812A" localFKIndex="9D16D13C-1D37-79F1-42C5-53E9F5ADE0E9" name="w_endorsement_d_w_endorsement_cancel_reason_d_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:50:38 UTC</createdTime>
+<generatorID>069D9BD8-F27A-F416-7531-7B5D77D4F1CD</generatorID>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<referredTableLongName>w_endorsement_cancel_reason_d</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5FD2CCF6-6BE8-2DF8-64C4-4AA0ABBDA272</referredTableID>
+<keyObject>66EF1C6D-4AF7-FA1F-3236-A9A9C29BB3A7</keyObject>
+<referredKeyID>66EF1C6D-4AF7-FA1F-3236-A9A9C29BB3A7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>w_endo_cancel_reason_id_1</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

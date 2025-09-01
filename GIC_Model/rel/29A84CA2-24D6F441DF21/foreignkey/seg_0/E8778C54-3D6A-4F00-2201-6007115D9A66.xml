@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E8778C54-3D6A-4F00-2201-6007115D9A66" containerWithKeyObject="B7F93F7D-6BF9-808A-11E5-D4DBB0434D00" localFKIndex="500BEE01-C803-F2E6-EC10-09C24AF3E128" name="w_policy_insured_coverage_f_w_product_d_FK">
+<createdBy>Admin</createdBy>
+<createdTime>2025-09-01 03:50:38 UTC</createdTime>
+<generatorID>07CF10B2-3624-D133-4907-ADCD17CFDF69</generatorID>
+<ownerDesignName>GIC_Model</ownerDesignName>
+<referredTableLongName>w_product_d</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BC807917-1F44-5D8C-7D49-7AC4E830BDD8</referredTableID>
+<keyObject>D58034AB-23E7-CEE4-6406-9E8DAA0D5F04</keyObject>
+<referredKeyID>D58034AB-23E7-CEE4-6406-9E8DAA0D5F04</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>w_product_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
